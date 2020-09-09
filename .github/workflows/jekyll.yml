@@ -9,7 +9,7 @@ on:
 jobs:
   build:
 
-    runs-on: windows2016-azure
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2
